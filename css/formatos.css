@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  width: 60px;
+}
+.footer {
+  width: 25px;
+}
+
+.conteudo {
+  /* .Conteudo = Main */
+  min-height: calc(100vh - 100px);
+  display: grid;
+  place-items: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  font-size: 100%;
+  background-color: #e89579;
+  overflow-y: auto;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subtit {
+  text-align: center;
+}
+
+.logo {
+  max-width: 80px; /* Nao coloquei altura pois ao colocar "height:80px;" a proporcao ficaria errada , imagem fica achatada */
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.rodape {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  height: 2rem;
+  background-color: black;
+}
